@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+    @apply flex flex-row justify-between bg-green-600
+}
