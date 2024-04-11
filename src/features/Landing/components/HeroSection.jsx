@@ -24,8 +24,8 @@ const HeroSection = () => {
         w-[380px] h-[440px] flex justify-center items-end bg-[#6BC785]
          rounded-tl-[25%] rounded-br-[25%] rounded-tr-[40px] rounded-bl-[40px] shadow-[inset_6px_4px_26px_0px_rgba(0,0,0,0.12)]">
         <div className="w-[250px]  h-[400px] flex justify-center ">
-              <img className="h-[100%]"
-               src="/public/images/heroSection.png" alt="image"/>
+              <img className=" h-[101.4%]"
+               src="/images/heroSection.png" alt="image"/>
         </div>
         </div>
     </div>
