@@ -18,7 +18,7 @@ const HeroSection = () => {
 
             <Link className="border-solid border-2 border-[#224F34]
             bg-[#224F34] text-white py-3 px-7"
-            to="/Shop">EXPLORE NOW</Link>
+            to="/shop/items">EXPLORE NOW</Link>
         </div>
         <div className="
         w-[380px] h-[440px] flex justify-center items-end bg-[#6BC785]

@@ -1,13 +1,12 @@
-import React from 'react'
-import ShopItems from './ShopItemsCont/ShopItems'
-import DressItems from './ShopItemsCont/DressItems'
 
 const OfferZone = () => {
   return (
     <div>
-        <ShopItems/>
-        <DressItems/>
-        <div className="w-10 h-10 bg-slate-600"></div>
+      <div className="bg-[#C2EFD4] h-[400px]">
+        <div className="w-[300px] h-[380px]  relative">
+          <img className="w-[100%] h-[100%]  object-contain absolute" src="/images/exclusiveOffer.png" alt=""/>
+        </div>
+      </div>
     </div>
   )
 }

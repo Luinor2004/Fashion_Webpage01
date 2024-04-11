@@ -43,7 +43,7 @@ const ShopContent = () => {
             ))}
         </div>
         <div className="flex justify-center pt-[60px]">
-            <Link to="/See" className="w-[150px] h-[45px] flex justify-center items-center
+            <Link to="/items" className="w-[150px] h-[45px] flex justify-center items-center
                 gap-3 border-solid border-2 border-[#224f34] text-[#224f34]">See all <FaArrowRightLong/></Link>
         </div>
     </div>
