@@ -1,5 +1,5 @@
- 
-import HandPick from '../features/Shop/components/HandPick'
+
+import HandPick from '../features/Shop/components/handPick/HandPick'
 import OfferZone from '../features/Shop/components/OfferZone'
 import ShopItems from '../features/Shop/components/ShopItemsCont/ShopItems'
 
@@ -9,6 +9,7 @@ const ShopItem = () => {
         <ShopItems/>
         <OfferZone/>
         <HandPick/>
+       
     </>
   )
 }
