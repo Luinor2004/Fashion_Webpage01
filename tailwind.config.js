@@ -6,7 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      'Elephant': ['Elephant', 'serif'],
+      lineClamp: {
+        4: '4',
+      },
     },
   },
   plugins: [],
