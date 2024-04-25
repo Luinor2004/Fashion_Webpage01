@@ -33,7 +33,7 @@ const SigninPage = () => {
                             <label htmlFor="Remember Me">I agree to terms and conditions.</label>
                         </div>
                     </div>
-                    <button type="submit" className="w-full mb-4 text-[18px] mt-6 rounded-full bg-white text-emerald-800 hover:bg-emerald-600 hover:text-white py-2 transition-colors duration-300">Register</button>
+                    <Link to="/"><button type="submit" className="w-full mb-4 text-[18px] mt-6 rounded-full bg-white text-emerald-800 hover:bg-emerald-600 hover:text-white py-2 transition-colors duration-300">Register</button></Link>
                     <div className="">
                         <span className="m-4">Already Have an account? <Link to="/loginPage" className="text-blue-500">Login</Link></span>
                     </div>
