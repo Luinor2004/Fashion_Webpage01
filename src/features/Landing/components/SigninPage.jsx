@@ -14,17 +14,17 @@ const SigninPage = () => {
                 <form className="" action="" method="">
                     <div className="relative my-6">
                         <input type="email" className=" block w-72 py-2.3 px-0 text-sm text-[#224F34] bg-transparent border-0 border-b-2 border-[#224F34] appearance-none dark:focus:border-blue-800 focus:outline-none focus:ring-0 focus:text-[#224F34] focus:border-blue-600 peer"/>
-                        <label htmlFor="" className="absolute text-md text-[#224F34] duration-300 transform translate-y-[-15px] scale-75 top-0 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Enter Email</label>
+                        <label htmlFor="" className="absolute text-md text-[#224F34] duration-300 transform translate-y-[-15px] scale-75 top-[-5px] -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Enter Email</label>
                         <FaUser className=" absolute top-[4px] right-[-18px]"/>
                     </div>
                     <div className="relative my-6">
                         <input type="password" className="block w-72 py-2.3 px-0 text-sm text-[#224F34] bg-transparent border-0 border-b-2 border-[#224F34] appearance-none dark:focus:border-blue-800 focus:outline-none focus:ring-0 focus:text-[#224F34] focus:border-blue-600 peer"/>
-                        <label htmlFor="" className="absolute text-md text-[#224F34] duration-300 transform translate-y-[-15px] scale-75 top-0 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Enter Password</label>
+                        <label htmlFor="" className="absolute text-md text-[#224F34] duration-300 transform translate-y-[-15px] scale-75 top-[-5px] -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Enter Password</label>
                         <FaLock className=" absolute top-[4px] right-[-18px]"/> 
                     </div>
                     <div className="relative my-6">
                         <input type="password" className="block w-72 py-2.3 px-0 text-sm text-[#224F34] bg-transparent border-0 border-b-2 border-[#224F34] appearance-none dark:focus:border-blue-800 focus:outline-none focus:ring-0 focus:text-[#224F34] focus:border-blue-600 peer"/>
-                        <label htmlFor="" className="absolute text-md text-[#224F34] duration-300 transform translate-y-[-15px] scale-75 top-0 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Confirm Password</label>
+                        <label htmlFor="" className="absolute text-md text-[#224F34] duration-300 transform translate-y-[-15px] scale-75 top-[-5px] -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Confirm Password</label>
                         <FaLock className=" absolute top-[4px] right-[-18px]"/> 
                     </div>
                     <div className="flex justify-between items-center">
